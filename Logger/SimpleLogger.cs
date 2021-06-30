@@ -4,9 +4,9 @@ namespace Logger
 {
     public class SimpleLogger
     {
-        public static void Log(string message)
+        public static void Log(string message, string? caller)
         {
-            Console.WriteLine($"Message: {message}");
+            Console.WriteLine($"{caller ?? string.Empty} Message: {message}");
         }
     }
 }
