@@ -1,0 +1,21 @@
+﻿using System;
+
+namespace Logger
+{
+    public class SimpleLogger
+    {
+<<<<<<< HEAD
+        public static void Log(string message, string? caller)
+        {
+            Console.WriteLine($"{caller ?? string.Empty} Message: {message}");
+=======
+        static int counter = 0;
+        
+        public static void Log(string message)
+        {
+            Console.WriteLine($"{counter} Message: {message}");
+            ++counter;
+>>>>>>> 50717270be784776209f3326d545276a94501018
+        }
+    }
+}
