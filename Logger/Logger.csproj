@@ -10,6 +10,7 @@
     <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>
